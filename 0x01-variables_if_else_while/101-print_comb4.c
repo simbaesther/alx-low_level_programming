@@ -32,7 +32,7 @@ int main(void)
 			j++;
 		}
 		j = '0';
-		i++
+		i++;
 	}
 	putchar('\n');
 	return (0);
