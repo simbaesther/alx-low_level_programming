@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main- a code that determines whether the number 
+ * main- a code that determines whether the number
  * stored in the variable n is positive or negative.
  * prints either negative, positive or zero
  * Return: 0 on Success
