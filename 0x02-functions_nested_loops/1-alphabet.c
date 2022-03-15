@@ -3,6 +3,7 @@
  * Desc: file 1-alphabet.c
  * Prototype: void print_alphabet(void)
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line
+ * Return: 0 Always
  */
 void print_alphabet(void)
 {
