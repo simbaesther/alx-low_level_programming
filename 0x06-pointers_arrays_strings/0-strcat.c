@@ -7,7 +7,7 @@
  * @dest: A pointer to the string to be concatenated upon.
  * @src: The source string to be appended to @dest.
  *
- * Returns: A pointer to the destination string @dest.
+ * Return: A pointer to the destination string @dest.
  */
 char *_strcat(char *dest, char *src)
 {
