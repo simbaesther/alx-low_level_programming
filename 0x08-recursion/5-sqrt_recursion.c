@@ -6,9 +6,7 @@
  *
  * Return: If n has a natural square root - the natural square root of n.
  * If n does not have a natural square root - -1.
- */
-
-/**
+ *
  * find_sqrt - Finds the natural square root of an inputted number.
  * @num: The number to find the square root of.
  * @root: The root to be tested.
