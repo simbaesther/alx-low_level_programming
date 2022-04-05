@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stddef.h>
+#include <stdlib.h>
+
 /**
  * Desc: Header file containing the prototypes of all
  * functions and the prototype of the function @_putchar
