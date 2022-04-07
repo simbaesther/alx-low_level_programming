@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdlib.h>
+
 /**
  * Desc - a header file containing the prototypes of all the functions in
  * this directory, and the prototype of the function _putchar
