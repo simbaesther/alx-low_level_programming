@@ -110,7 +110,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 		prod++;
 	}
 
-[O	prod--;
+	prod--;
 
 	while (zeroes--)
 	{
