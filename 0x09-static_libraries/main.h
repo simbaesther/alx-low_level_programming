@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stddef.h>
+
 /**
  * Desc: Header file containing the prototypes of all functions
  * included in the static library libholberton.a.
