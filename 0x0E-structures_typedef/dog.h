@@ -6,8 +6,6 @@
 #include <stdio.h>
 
 /**
- * Desc: Header file that defines a new type struct dog
- *
  * struct dog - a new type describing a dog
  * @name: The name of the dog.
  * @age: The age of the dog.
