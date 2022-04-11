@@ -2,6 +2,7 @@
 #define DOG_H
 
 #include <stdlib.h>
+#include <stddef.h>
 
 /**
  * Desc: Header file that defines a new type struct dog
