@@ -4,12 +4,8 @@
 #include <stdlib.h>
 
 /**
- * Desc: Header file containing all the
- * prototypes of the project 0x0E. C - Structures, typedef
- * and it defines a new type dog
- */
-
-/**
+ * Desc: Header file that defines a new type struct dog
+ *
  * struct dog - A new type describing a dog.
  * @name: The name of the dog.
  * @age: The age of the dog.
