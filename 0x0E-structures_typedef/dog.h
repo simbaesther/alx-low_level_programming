@@ -1,4 +1,4 @@
-#ifndef DOH_H
+#ifndef DOG_H
 #define DOG_H
 
 #include <stdlib.h>
@@ -6,6 +6,7 @@
 /**
  * Desc: Header file containing all the
  * prototypes of the project 0x0E. C - Structures, typedef
+ * and it defines a new type dog
  */
 
 /**
