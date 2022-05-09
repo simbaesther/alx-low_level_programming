@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main(int argc, char **argv)
 {
   // Load config files, if any.
