@@ -1,29 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
+#include <stdlib.h>
 
-int main(int argc, char **argv)
+int main (void)
 {
-  // Load config files, if any.
-
-  // Run command loop.
-  lsh_loop();
-
-  // Perform any shutdown/cleanup.
-
-  return EXIT_SUCCESS;
-}
-void lsh_loop(void)
-{
-  char *line;
-  char **args;
-  int status;
-
-  do {
-    printf("> ");
-    line = lsh_read_line();
-    args = lsh_split_line(line);
-    status = lsh_execute(args);
-
-    free(line);
-    free(args);
-  } while (status);
+    size_t size = 1024;
+    char *lineptr;
+    lineptr = malloc (sizeof (char *)*size);
+    
+    printf("$ ");
+    getline(&lineptr, &size, stdin);
+    printf("%s", lineptr);
+    
+    return 0;
 }
