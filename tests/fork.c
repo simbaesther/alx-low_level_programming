@@ -15,6 +15,8 @@ int main(void)
 	printf("Before fork\n");
 	ppid = getppid();
 	my_pid = getpid();
+	printf("My ppid is %u\n", ppid);
+	printf("My pid is %u\n", my_pid);
 
 	pid = fork();
 	if (pid == -1)
