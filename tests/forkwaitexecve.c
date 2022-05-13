@@ -30,31 +30,4 @@ int main (void)
 
 		return (0);
 	}
-/**
-		(execve(argv[0], argv, NULL) != -1)
-		{
-			pid = getpid();
-			printf("%u\n", pid);
-
-			childpid = fork();
-			if (childpid == -1)
-			{
-				perror("Error:");
-				return (1);
-			}
-			if (childpid == 0)
-			{
-				wait (&status);
-				childpid = getpid();
-				printf("%u\n", childpid);
-			}
-			else
-			{
-				printf("Success");
-			}
-		}
-	}
-
-	return (0);
 }
-*/
