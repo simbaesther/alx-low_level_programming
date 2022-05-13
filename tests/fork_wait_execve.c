@@ -21,6 +21,7 @@ int main (void)
 
 	for (i = 0; i < 5; i++)
 	{
+		execve(argv[0], argv, NULL);
 		pid = getpid();
 		printf("%u\n", pid);
 
