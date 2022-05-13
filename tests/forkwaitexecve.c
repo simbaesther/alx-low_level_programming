@@ -15,13 +15,23 @@ int main (void)
 {
 	int i;
 	char *argv[] = {"/bin/ls", "-l", "/tmp/", NULL};
-	pid_t pid;
 	pid_t childpid;
 	int status;
 
 	for (i = 0; i < 5; i++)
 	{
-		while (execve(argv[0], argv, NULL) != -1)
+		childpid =fork();
+		if (childpid == 0)
+		{
+			if (execve(argv[0], argv, NULL) == -1)
+				perror("Error:\n");
+		}
+		wait (&status);
+
+		return (0);
+	}
+/**
+		(execve(argv[0], argv, NULL) != -1)
 		{
 			pid = getpid();
 			printf("%u\n", pid);
@@ -47,3 +57,4 @@ int main (void)
 
 	return (0);
 }
+*/
